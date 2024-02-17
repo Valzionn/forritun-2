@@ -28,7 +28,7 @@ img {
 body {
     
     border: solid green 1px;
-    height: 70vh;
+    height: 60vh;
     width: 50vw;
     display: flex; 
     flex-direction: column;

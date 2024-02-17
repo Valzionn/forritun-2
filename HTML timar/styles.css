@@ -20,6 +20,12 @@ li {
 
 }
 
+div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
 body {
     border: solid black 1px;
     width: 50vw;
@@ -37,9 +43,9 @@ img {
     width: 150px;
     border-radius: 75px;
     overflow: hidden;
+    margin-left: auto;
 }
 
 .foo {
-    display: flex;
-    justify-content: space-between;
+
 }

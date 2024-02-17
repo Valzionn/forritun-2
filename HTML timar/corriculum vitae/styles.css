@@ -2,6 +2,19 @@
     
 }
 
+.imageContainer {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 body {
     border: solid green 1px;
     height: 70vh;

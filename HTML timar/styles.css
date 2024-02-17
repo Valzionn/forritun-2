@@ -21,9 +21,7 @@ li {
 }
 
 div {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
+
 }
 
 body {
@@ -47,5 +45,6 @@ img {
 }
 
 .foo {
-
+    display: flex;
+    justify-content: space-between;
 }

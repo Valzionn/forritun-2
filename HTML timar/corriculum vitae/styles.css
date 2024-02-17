@@ -1,5 +1,15 @@
 .smurv {
-    
+    display: flex;
+    justify-content: space-between; 
+    width: 98.1%; 
+    border: solid 2px red;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.header-container {
+    height: 150px;
+    width: 150px;
 }
 
 .imageContainer {
@@ -16,7 +26,27 @@ img {
 }
 
 body {
+    
     border: solid green 1px;
     height: 70vh;
     width: 50vw;
+    display: flex; 
+    flex-direction: column;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: solid red;
+    background-color: cadetblue;
+}
+
+.item {
+    border: solid 1px green;
+    margin: 10px;
+    padding: 10px;
+    background-color: steelblue;
 }

@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+
+}
+
+img {
+    padding: 20px;
+    height: 200px;
+    margin: 20px;
+    background-color: blue;
+}

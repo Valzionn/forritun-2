@@ -3,13 +3,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: peachpuff;
+    background-color: cornflowerblue;
 
 }
 
+.abouts {
+    border-bottom: 2px solid grey;
+}
+
 img {
-    padding: 20px;
+    padding: 10px;
     height: 200px;
-    margin: 20px;
-    background-color: blue;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+
+.top-of-table {
+    background-color: cornflowerblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: crimson;
+}
+
+table {
+    background-color: lavender;
+}
+
+tr {
+    border: 2px outset grey;
+}
+
+td,
+th {
+    border: 1px solid black;
 }

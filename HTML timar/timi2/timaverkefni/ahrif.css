@@ -1,9 +1,22 @@
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 60%;
+}
+
 .banner {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #102A43;
 
 }
 
@@ -15,7 +28,7 @@ img {
     padding: 10px;
     height: 200px;
     margin-top: 20px;
-    background-color: cadetblue;
+    background-color: #9FB3C8;
 }
 
 .top-of-table {
@@ -23,11 +36,11 @@ img {
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #F7D070;
 }
 
 .red {
-    background-color: crimson;
+    background-color: #A61B1B;
 }
 
 table {
@@ -40,5 +53,33 @@ tr {
 
 td,
 th {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
+
+.smarts {
+    list-style-type: decimal;
+}
+
+.upper {
+    font-size: 25;
+    margin-left: 50px;
+    border-left: 10px solid #DA4A91;
+}
+
+.lower {
+    font-size: 25;
+    margin-left: 80px;
+    margin-right: 65%;
+    border-right: 10px solid #DA4A91;
+}
+
+footer {
+    font-size: large;
+    color: #9FB3C8;
+    background-color: #9FB3C8;
+}
+ .name {
+    margin-left: 33%;
+    position: relative;
+    top: -30px;
+ }
